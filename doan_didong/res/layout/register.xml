@@ -1,0 +1,163 @@
+<ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginBottom="0dp"
+    android:background="@drawable/background_register"
+    android:orientation="vertical" >
+
+    <com.example.doan_didong.ScalableImageView
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_margin="0dp"
+        android:padding="0dp"
+        android:src="@drawable/header_register" />
+
+    <TextView 
+        android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:text="Nhập vào thông tin cần thiết"
+	    android:gravity="center"
+	    android:textSize="20dp"
+	    android:textAppearance="?android:attr/textAppearanceMedium" />
+    <TableLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="50dp"
+	    android:layout_marginRight="50dp"
+	    android:layout_marginTop="5dp"
+	    android:layout_gravity="center" >
+
+        
+	    
+	    <EditText
+	        android:id="@+id/ed_username"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:hint="Tên đăng nhập"
+	        android:ems="10" />
+	    <EditText
+	        android:id="@+id/ed_hovaten"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:hint="Họ và tên"
+	        android:ems="10" />
+
+	    <Button
+	        android:id="@+id/btn_ngaysinh"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Chọn ngày sinh" />
+
+	        <LinearLayout
+	            android:layout_width="wrap_content"
+	            android:layout_height="match_parent"
+	            android:orientation="horizontal" >
+	            <TextView 
+	                	android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"
+				        android:text="Giới tính" />
+	            <RadioGroup
+				        android:id="@+id/radio_gioitinh"
+				        android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"
+				        android:orientation="horizontal" >
+				 
+				        <RadioButton
+				            android:id="@+id/radio_nam"
+				            android:layout_width="wrap_content"
+				            android:layout_height="wrap_content"
+				            android:text="Nam" 
+				            android:checked="true" />
+				        <RadioButton
+			                android:id="@+id/radio_nu"
+			                android:layout_width="wrap_content"
+			                android:layout_height="wrap_content"
+			                android:text="Nữ" />
+			 
+			    </RadioGroup>
+
+	            
+
+	        </LinearLayout>
+	 
+	        
+
+        <EditText
+            android:id="@+id/ed_diachi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Địa chỉ" />
+	
+	    <EditText
+	        android:id="@+id/ed_password"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:ems="10"
+	        android:inputType="textPassword"
+	        android:hint="Mật khẩu" />
+		<EditText
+	        android:id="@+id/ed_password_repeat"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:ems="10"
+	        android:inputType="textPassword"
+	        android:hint="Lặp lại mật khẩu" />
+	    <EditText
+	        android:id="@+id/ed_email"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:ems="10"
+	        android:hint="Email"
+	        android:inputType="textEmailAddress" />
+	
+	    <EditText
+	        android:id="@+id/ed_sdt"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:ems="10"
+	        android:inputType="phone"
+	        android:hint="Số điện thoại" />
+		<TextView 
+		    android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" 
+	        android:text="Chọn câu hỏi bí mật:"
+	        android:layout_marginTop="5dp" />
+	    <Spinner
+	        android:id="@+id/cau_hoi_bi_mat"
+	        android:layout_width="match_parent"
+	        android:layout_height="40dp"
+	        android:entries="@array/cau_hoi_bi_mat"
+	        android:prompt="@string/cau_hoi_bi_mat1" />
+
+		<EditText
+	        android:id="@+id/ed_tra_loi_bi_mat"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:ems="10"
+	        android:hint="Câu trả lời bí mật" />
+	    
+	    <!--  <CheckBox
+	        android:id="@+id/check_gv"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Giáo viên"
+	        android:visibility="invisible" />
+		-->
+		
+	    <Button
+	        android:id="@+id/btn_register_submit"
+	        android:layout_width="wrap_content"
+	        android:layout_height="50dp"
+	        android:layout_marginTop="5dp"
+	        android:textSize="25dp"
+	        android:background="@drawable/btn_style_register" />
+	  </TableLayout>
+    
+</LinearLayout>
+</ScrollView>

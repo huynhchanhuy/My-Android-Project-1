@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Change Layout" description="Change Layout" file="/Practise_03_Intent_Built_In/res/layout/activity_intent.xml" flags="6" flatten="true" id="com.android.ide.eclipse.adt.refactoring.convert" proj="/Practise_03_Intent_Built_In" sel-end="658" sel-start="0" stamp="1397051864721" type="android.widget.LinearLayout"/>
+</session>

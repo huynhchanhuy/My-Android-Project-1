@@ -1,0 +1,82 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+	
+    <TextView
+        android:id="@+id/lblComments"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+    />
+    
+    <EditText 
+        android:id="@+id/txtComments"
+        android:layout_width="fill_parent"
+        android:layout_height="170px"
+        android:textSize="18sp"
+        android:layout_alignLeft="@+id/lblComments"
+        android:layout_centerHorizontal="true"
+        />
+    
+    <Button 
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Frame Layout"
+        android:layout_below="@+id/txtComments"
+        android:layout_alignRight="@+id/txtComments"
+        />
+    <Button 
+        android:id="@+id/btnCancle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Orientation"
+        android:layout_below="@+id/txtComments"
+        android:layout_alignLeft="@+id/txtComments"
+        />
+    
+    <Button 
+        android:id="@+id/btnCancle2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New"
+        android:layout_below="@+id/txtComments"
+        android:layout_centerHorizontal="true"
+        />
+        
+            <Button 
+        android:id="@+id/btnCancle4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Right of Orientation"
+        android:layout_below="@+id/txtComments"
+        android:layout_toRightOf="@+id/btnCancle"
+        />
+            
+            <Button 
+        android:id="@+id/btnCancle3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="End of New"
+        android:layout_below="@+id/txtComments"
+        android:layout_toEndOf="@+id/btnCancle2"
+        />
+            
+            <Button 
+        android:id="@+id/btnCancle6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start of Frame"
+        android:layout_below="@+id/txtComments"
+        android:layout_toStartOf="@+id/btnSave"
+        />
+
+</RelativeLayout>

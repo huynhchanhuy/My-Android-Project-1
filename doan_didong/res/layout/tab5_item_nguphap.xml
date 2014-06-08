@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/item_listview_style_nguphap" >
+
+        <TextView
+            android:id="@+id/tab5_nguphap_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ID"
+            android:visibility="gone" />
+		
+		<TextView
+		    android:id="@+id/tab5_nguphap_tieude"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentLeft="true"
+		    android:layout_alignRight="@+id/tab5_nguphap_tomtat"
+		    android:text="1. Bài học về TỪ LOẠI Bài học về TỪ LOẠI Bài học về TỪ LOẠI ad Bài học về TỪ LOẠI"
+		    android:textAppearance="?android:attr/textAppearanceMedium"
+		    android:textColor="#9A0E14"
+		    android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tab5_nguphap_tomtat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/tab5_nguphap_tieude"
+            android:layout_toLeftOf="@+id/tab5_nguphap_next_btn"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:text="nội dung tóm tắt của bài học 1...nội dung tóm tắt của bài học 1...nội dung tóm tắt của bài học 1...
+            			nội dung tóm tắt của bài học 1...nội dung tóm tắt của bài học 1..."
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#1500FF" />
+
+        <Button
+            android:id="@+id/tab5_nguphap_next_btn"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/btn_style_btn_next"
+            android:focusable="false"
+            android:focusableInTouchMode="false" />
+
+        <TextView
+            android:id="@+id/tab5_nguphap_luot_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/tab5_nguphap_tieude"
+            android:text="xem 123"
+            android:textColor="#009933" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/tab5_nguphap_tomtat"
+            android:layout_toLeftOf="@+id/tab5_nguphap_next_btn"
+            android:paddingLeft="10dp"
+            android:paddingBottom="10dp"
+            android:text="xem thêm" />
+
+</RelativeLayout>
+

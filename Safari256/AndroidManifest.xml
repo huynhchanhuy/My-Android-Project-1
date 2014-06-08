@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.code256.safari256"
+    android:versionCode="1"
+    android:versionName="1.0" >
+   <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="19" />
+ 
+     <!--  Internet Permissions -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:allowBackup="true"
+        android:configChanges="keyboardHidden|orientation"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        
+        <activity
+            android:name="com.code256.safari256.MainActivity"
+            android:label="@string/app_name" >
+          
+        </activity>
+        <activity
+            android:name="com.code256.safari256.Animals"
+            android:label="@string/app_name" >
+
+        </activity>
+        <activity
+            android:name="com.code256.safari256.Splash"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+          
+        
+         <!-- Registration Activity -->
+         <activity android:name="com.code256.safari256.Safari"
+            android:label="@string/search">
+           android:parentActivityName=".MainActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+         
+           <activity android:name="com.code256.safari256.ZoomActivity"
+            android:label="@string/title_zoom"
+            android:parentActivityName="com.code256.safari256.MainActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+          <activity android:name="com.code256.safari256.LayoutChangesActivity"
+            android:label="@string/title_layout_changes"
+            android:parentActivityName="com.code256.safari256.MainActivity">>
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" /></activity>
+         
+              <activity android:name="com.code256.safari256.KidepoActivity"
+            android:label="@string/title_crossfade"
+            android:uiOptions="splitActionBarWhenNarrow"
+            android:parentActivityName="com.code256.safari256.MainActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+ <activity android:name="com.code256.safari256.InfoActivity"
+            android:label="@string/title_crossfade"
+            android:uiOptions="splitActionBarWhenNarrow"
+            android:parentActivityName="com.code256.safari256.MainActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+
+        <activity android:name="com.code256.safari256.CameraActivity"
+            android:label="@string/title_crossfade"
+            android:uiOptions="splitActionBarWhenNarrow"
+            android:parentActivityName="com.code256.safari256.MainActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+
+
+        <activity android:name="com.code256.safari256.MabiraActivity"
+            android:label="@string/mabira"
+            android:uiOptions="splitActionBarWhenNarrow"
+            android:parentActivityName="com.code256.safari256.Animals">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Animals" />
+        </activity>
+
+
+        <activity android:name="com.code256.safari256.BwindiActivity"
+            android:label="@string/bwind"
+            android:uiOptions="splitActionBarWhenNarrow"
+            android:parentActivityName="com.code256.safari256.Animals">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Animals" />
+        </activity>
+
+        <activity
+            android:name="com.code256.safari256.RegActivity"
+            android:label="User Registration" >
+        </activity>
+        
+         <activity
+            android:name="com.code256.safari256.ScreenActivity"
+            android:label="Welcome::" >
+        </activity>
+        
+         <activity
+            android:name="com.code256.safari256.NewPropertyActivity"
+            android:label="Post your Animal" >
+        </activity>
+
+        <activity
+            android:name="com.code256.safari256.Nile"
+            android:label="@string/Rnile"
+            android:uiOptions="splitActionBarWhenNarrow"
+            android:parentActivityName="com.code256.safari256.Animals">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Animals" />
+        </activity>
+          <activity
+            android:name="com.code256.safari256.MessageActivity"
+            android:label="Talk to the Admin" >
+        </activity>
+        
+           <activity
+            android:name="com.code256.safari256.ReadComments"
+            android:label="Property" >
+        </activity>
+      
+        
+    </application>
+   
+
+</manifest>

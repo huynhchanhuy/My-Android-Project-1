@@ -1,0 +1,225 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background_login"
+	android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+    <com.sothree.slidinguppanel.SlidingUpPanelLayout
+        android:id="@+id/sliding_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+	<ScrollView 
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:orientation="vertical">
+	
+		<LinearLayout
+		    android:layout_width="fill_parent"
+		    android:layout_height="1000dp"
+		    android:layout_marginBottom="0dp"
+		    android:layout_marginTop="45dp"
+		    android:orientation="vertical" >
+		
+			<com.example.doan_didong.ScalableImageView
+		            android:layout_width="fill_parent"
+		            android:layout_height="50dp"
+		            android:layout_margin="0dp"
+		            android:padding="0dp"
+		            android:src="@drawable/header_login" />
+		
+		    <TableLayout
+		        android:layout_width="fill_parent"
+		        android:layout_height="fill_parent"
+		        android:layout_marginTop="10dp"
+		        android:layout_marginBottom="10dp"
+		        android:layout_marginLeft="30dp"
+		        android:layout_marginRight="30dp"
+		        android:gravity="center_horizontal" >
+		
+		        <!-- <TextView
+		            android:id="@+id/textView1"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_marginLeft="30dp"
+		            android:layout_marginRight="30dp"
+		            android:text="Tên đăng nhập"
+		            android:textAppearance="?android:attr/textAppearanceLarge" /> -->
+		        <!-- <TextView
+		            android:id="@+id/textView2"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_marginLeft="30dp"
+		            android:layout_marginRight="30dp"
+		            android:layout_marginTop="5dp"
+		            android:text="Mật khẩu"
+		            android:textAppearance="?android:attr/textAppearanceLarge" /> -->
+		
+		        <EditText
+		            android:id="@+id/ed_username"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_marginLeft="30dp"
+		            android:layout_marginRight="30dp"
+		            android:text=""
+		            android:hint="Tên đăng nhập"
+		            android:ems="10"/>
+		        <EditText
+		            android:id="@+id/ed_password"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_marginLeft="30dp"
+		            android:layout_marginRight="30dp"
+		            android:text=""
+		            android:hint="Mật khẩu"
+		            android:ems="10"
+		            android:inputType="textPassword" />
+		        <CheckBox 
+		            android:id="@+id/remember_username" 
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_marginLeft="30dp"
+		            android:layout_marginRight="30dp"
+		            android:text="Ghi nhớ tài khoản"
+		            />
+		
+		        <Button
+		            android:id="@+id/btnlogin"
+		            android:layout_height="50dp"
+		            android:layout_marginTop="20dp"
+		            android:background="@drawable/btn_style_login" />
+		
+		        <Button
+		            android:id="@+id/btn_quen_mat_khau"
+		            android:layout_height="50dp"
+		            android:layout_marginTop="5dp"
+		            android:background="@drawable/btn_style_quen_mat_khau" />
+		
+		        <Button
+		            android:id="@+id/btn_register"
+		            android:layout_height="50dp"
+		            android:layout_marginTop="5dp"
+		            android:background="@drawable/btn_style_dang_ki" />
+		
+		        <Button
+		            android:id="@+id/btn_thoat"
+		            android:layout_height="50dp"
+		            android:layout_marginTop="5dp"
+		            android:background="@drawable/btn_style_thoat" />
+		    </TableLayout>
+		</LinearLayout>
+	</ScrollView>
+	<ScrollView 
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:orientation="vertical">
+	<LinearLayout 
+		    android:layout_width="fill_parent"
+		    android:layout_height="1000dp"
+		    android:background="@drawable/slidingup_background"
+		    android:orientation="vertical" >
+			<TextView
+		        android:layout_width="fill_parent"
+		        android:layout_height="65dp"
+		        android:text=""
+		        android:background="@drawable/slidingup"
+		        android:textAppearance="?android:attr/textAppearanceLarge" />
+			<com.example.doan_didong.ScalableImageView 
+		        android:background="@drawable/logo_uit"
+		        android:layout_width="100dp"
+		        android:layout_height="100dp"
+		        android:gravity="center"
+		        android:layout_gravity="center_horizontal"/>
+		    <TextView 
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:textColor="#0000FF"
+		        android:gravity="center"
+		        android:layout_gravity="center_horizontal"
+		        android:text="Trường ĐH Công Nghệ Thông Tin"/>
+		    <TextView 
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:textColor="#0000FF"
+		        android:gravity="center"
+		        android:layout_gravity="center_horizontal"
+		        android:text="Khoa Mạng Máy Tính và Truyền Thông"/>
+			<TextView
+		        android:textColor="#990000"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_gravity="center"
+		        android:gravity="center_horizontal"
+		        android:textStyle="bold|italic"
+		        android:textAppearance="?android:attr/textAppearanceMedium"
+		        android:text="CHƯƠNG TRÌNH EASY ENGLISH" />
+		    
+		    <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_gravity="left"
+		        android:textStyle="bold"
+		        android:textColor="#000000"
+		        android:text="Giảng viên hướng dẫn:"/>
+		    <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_gravity="left"
+		        android:textStyle="bold|italic"
+		        android:layout_marginLeft="20dp"
+		        android:textColor="#00ff00"
+		        android:text="ThS. Trần Bá Nhiệm" />
+		
+		    <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_gravity="left"
+		        android:textStyle="bold"
+		        android:textColor="#000000"
+		        android:text="Nhóm sinh viên thực hiện:" />
+		
+		    <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_gravity="left"
+		        android:textStyle="italic"
+		        android:textColor="#00ff00"
+		        android:layout_marginLeft="20dp"
+		        android:text="Trần Võ Khôi Nguyên - 09520193 " />
+		    <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_gravity="left"
+		        android:textStyle="italic"
+		        android:textColor="#00ff00"
+		        android:layout_marginLeft="20dp"
+		        android:text="Huỳnh Thái Dương     - 09520049 " />
+		    <TextView
+		        android:textColor="#feb900"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_gravity="left"
+		        android:text="Lớp: MMT04/UIT" />
+
+		    <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:textAppearance="?android:attr/textAppearanceSmall"
+		        android:textColor="#000000"
+		        android:textStyle="bold"
+		        android:padding="10dp"
+		        android:layout_gravity="left"
+		        android:text="Chương trình EASY ENGLISH hỗ trợ, giúp đỡ các bạn học tiếng anh dễ dàng hơn. Trước tiên các bạn cần phải có một tài khoản. Sau đó, các bạn đăng nhập vào hệ thống và có thể sử dụng chương trình. Nếu chưa có tài khoản, các bạn có thể đăng kí một cách dễ dàng và nhanh chóng. Chương trình có các chức năng chính:
+		        \n - Tổng hợp các từ thông dụng trong tiếng anh, nghe, xem nghĩa, lưu.
+		        \n - Tổng hợp các thành ngữ thường gặp.
+		        \n - Tổng hợp ngữ pháp cơ bản, nâng cao.
+		        \n - Nghe audio, xem video.
+		        \n - Các dạng thi Trắc Nghiệm, True/False, Điền Từ.
+		        \n - Đánh dấu yêu thích. " />
+	</LinearLayout>
+	</ScrollView>
+</com.sothree.slidinguppanel.SlidingUpPanelLayout>
+</RelativeLayout>

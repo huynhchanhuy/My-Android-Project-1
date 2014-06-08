@@ -1,0 +1,420 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent" >
+    
+<LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:padding="10px">
+
+		<RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10px" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:orientation="vertical"
+            android:paddingLeft="45px">
+
+            <Button
+                android:id="@+id/btn_get_all_audio"
+                android:layout_width="85px"
+                android:layout_height="85px"               
+                android:layout_gravity="center"
+                android:background="@drawable/btn_listen_audio"
+                 />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5px"
+                android:text="Listen audio"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        
+        
+        
+        
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:orientation="vertical"
+            android:paddingRight="45px">
+
+            <Button
+                android:id="@+id/btn_watch_all_video"
+                android:layout_width="85px"
+                android:layout_height="85px"
+                android:layout_gravity="center"
+                android:background="@drawable/btn_watch_video_pressed"
+                 />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5px"
+                android:text="Watch video"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </RelativeLayout>
+    
+		
+		
+		
+	<RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10px" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:orientation="vertical"
+            android:paddingLeft="42px">
+
+            <Button
+                android:id="@+id/btn_study_all"
+                android:layout_width="85px"
+                android:layout_height="85px"               
+                android:layout_gravity="center"
+                android:background="@drawable/btn_study_all_pressed"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5px"
+                android:text="Study English"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:orientation="vertical"
+            android:paddingRight="23px">
+
+            <Button
+                android:id="@+id/btn_test_practice"
+                android:layout_width="85px"
+                android:layout_height="85px"
+                android:layout_gravity="center"
+                android:background="@drawable/btn_test_practice_pressed" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5px"
+                android:text="Test and Practice"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </RelativeLayout>
+    
+	
+	
+	
+	
+	
+	
+	
+	<RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10px" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:orientation="vertical"
+            android:paddingLeft="25px">
+
+            <Button
+                android:id="@+id/btn_your_information"
+                android:layout_width="85px"
+                android:layout_height="85px"               
+                android:layout_gravity="center"
+                android:background="@drawable/btn_your_information_pressed"
+                 />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5px"
+                android:text="Your information"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:orientation="vertical"
+            android:paddingRight="30px">
+
+            <Button
+                android:id="@+id/btn_your_score"
+                android:layout_width="85px"
+                android:layout_height="85px"
+                android:layout_gravity="center"
+                android:background="@drawable/final_score_xml"
+                 />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5px"
+                android:text="   Your score       "
+                android:textStyle="bold" />
+        </LinearLayout>
+    </RelativeLayout>
+    
+	
+	
+	
+	
+	
+	<RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10px" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:orientation="vertical"
+            android:paddingLeft="25px">
+
+            <Button
+                android:id="@+id/btn_your_favorite_audio"
+                android:layout_width="85px"
+                android:layout_height="85px"               
+                android:layout_gravity="center"
+                android:background="@drawable/favorite_audio_xml"
+                 />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5px"
+                android:text="    Audio favorite"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:orientation="vertical"
+            android:paddingRight="30px">
+
+            <Button
+                android:id="@+id/btn_your_favorite_video"
+                android:layout_width="85px"
+                android:layout_height="85px"
+                android:layout_gravity="center"
+                android:background="@drawable/favorite_video_xml"
+                 />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5px"
+                android:text="   Video favorite"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10px" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:orientation="vertical"
+            android:paddingLeft="25px">
+
+            <Button
+                android:id="@+id/btn_upload_file"
+                android:layout_width="85px"
+                android:layout_height="85px"               
+                android:layout_gravity="center"
+                android:background="@drawable/upload_btn_xml"
+                 />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5px"
+                android:text="       Upload          "
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:orientation="vertical"
+            android:paddingRight="30px">
+
+            <Button
+                android:id="@+id/btn_about_us"
+                android:layout_width="85px"
+                android:layout_height="85px"
+                android:layout_gravity="center"
+                 />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5px"
+                android:text="   About us       "
+                android:textStyle="bold" />
+        </LinearLayout>
+    </RelativeLayout>
+    
+    
+    
+    
+    
+    
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10px" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:orientation="vertical"
+            android:paddingLeft="25px">
+
+            <Button
+                android:id="@+id/btn_binhluan"
+                android:layout_width="85px"
+                android:layout_height="85px"               
+                android:layout_gravity="center"
+                android:background="@drawable/btn_comment_xml"
+                 />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5px"
+                android:text="       Comment          "
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:orientation="vertical"
+            android:paddingRight="30px">
+
+            <Button
+                android:id="@+id/btn_danhgia"
+                android:layout_width="85px"
+                android:layout_height="85px"
+                android:layout_gravity="center"
+                android:background="@drawable/btn_rating_xml"
+                 />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5px"
+                android:text="         Rate             "
+                android:textStyle="bold" />
+        </LinearLayout>
+    </RelativeLayout>
+    
+    
+    
+    
+    
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10px" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:orientation="vertical"
+            android:paddingLeft="25px">
+
+            <Button
+                android:id="@+id/btn_logout"
+                android:layout_width="85px"
+                android:layout_height="85px"               
+                android:layout_gravity="center"
+                android:background="@drawable/btn_logout"
+                 />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5px"
+                android:text="       Logout          "
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:orientation="vertical"
+            android:paddingRight="30px">
+
+            <Button
+                android:id="@+id/btn_exit"
+                android:layout_width="85px"
+                android:layout_height="85px"
+                android:layout_gravity="center"
+                android:background="@drawable/btn_exit"
+                 />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5px"
+                android:text="         Exit               "
+                android:textStyle="bold" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>
+</ScrollView>

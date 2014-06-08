@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background_one_ngu_phap"
+    android:orientation="vertical" >
+		
+    	<TextView
+	        android:id="@+id/tab5_view_a_id"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:visibility="gone" />
+	    <TextView
+	        android:id="@+id/tab5_view_a_tieude"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text=""
+	        android:textSize="20dp"
+	        android:textStyle="bold"
+	        android:textColor="#9A0E14" />
+	    <TextView
+	        android:id="@+id/tab5_view_a_luot_view"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:paddingLeft="10dp"
+	        android:textStyle="italic"
+	        android:textColor="#FF0000"
+	        android:text="" />
+	    <TextView
+	        android:id="@+id/tab5_view_a_noi_dung"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:padding="5dp"
+	        android:text=""
+	        android:textStyle="normal" />
+	    
+	    
+	    
+	    <!-- <TextView
+	        android:id="@+id/tab5_view_a_click1"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="center_horizontal"
+	        android:layout_marginTop="10dp"
+	        android:text="Click xem nhận xét mới nhất"
+	        android:textColor="#005200"
+	        android:textSize="15dp"
+	        android:textStyle="bold" />
+	    <LinearLayout 
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="vertical"
+	        android:visibility="visible" >
+		    <ListView 
+		        android:id="@+id/tab5_view_a_listview"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:visibility="visible">
+		    </ListView>
+
+		    <TextView
+		        android:id="@+id/tab5_view_a_listview_more"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:gravity="center_horizontal"
+		        android:text="Xem thêm" />
+
+	    </LinearLayout> -->
+	    
+	    
+	    
+	    
+	    
+	    <!-- <TextView
+	        android:id="@+id/tab5_view_a_click2"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="center_horizontal"
+	        android:layout_marginTop="10dp"
+	        android:textColor="#00007A"
+	        android:textSize="15dp"
+	        android:text="Click để thêm nhận xét"
+	        android:textStyle="bold" />
+	    <LinearLayout 
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="vertical"
+	        android:visibility="visible" >
+		    <EditText
+		        android:id="@+id/tab5_view_a_add_noidung"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:descendantFocusability="beforeDescendants"
+  				android:focusableInTouchMode="true"
+  				android:focusable="true"
+		        android:hint="Nội dung" />
+		    <Button
+		        android:id="@+id/tab5_view_a_add_btn"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="Apply" />
+	    </LinearLayout> -->
+ 
+</LinearLayout>
+</ScrollView>
+
+<!-- <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Thành viên: nguyen"
+	        android:textStyle="normal" />
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Họ tên: Nguyễn Văn A"
+	        android:textStyle="normal" />
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Thời gian: 16/10/2013"
+	        android:textStyle="normal" />
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Nội dung: Bài này khá chi tiết và bổ ích."
+	        android:textStyle="normal" /> -->
+
+
+
+
+
+
+
+
+
+
+
+<!-- <EditText
+	        android:id="@+id/ed_thaydoi_sdt"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:inputType="phone"
+	        android:text=""
+	        android:hint="Số điện thoại" /> -->
+<!-- <Button
+	        android:id="@+id/btn_thaydoi_thongtincanhan"
+	        android:layout_width="wrap_content"
+	        android:layout_height="50dp"
+	        android:layout_marginTop="5dp"
+	        android:textSize="25dp"
+	        android:background="@drawable/btn_style_tab2_thaydoi_thongtin" /> -->
+<!-- <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_margin="0dp"
+        android:padding="0dp"
+        android:src="@drawable/header_thaydoi_thongtin" /> -->
+    <!-- <EditText
+	        android:id="@+id/ed_thaydoi_hovaten"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text=""
+	        android:hint="Họ và tên" /> -->   

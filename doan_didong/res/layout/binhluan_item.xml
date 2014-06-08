@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <LinearLayout 
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content">
+    	<TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="#444444"
+	        android:text="Bình luận: "/>
+	    <TextView
+	        android:id="@+id/binhluan_id"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        
+	        android:textColor="#000000"
+	        android:text="1"
+	        android:textStyle="bold"
+	         />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/binhluan_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FF0000"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="aaaaaaaaaaaa" />
+    <TextView
+        android:id="@+id/binhluan_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#0033FF"
+        android:textSize="25dp"
+        android:text="bbbbbbbbbb"
+        android:textStyle="bold" />
+    <TextView
+        
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#0033FF"
+        android:text="bbbbbbbbbb"
+        android:visibility="invisible" />
+
+</LinearLayout>

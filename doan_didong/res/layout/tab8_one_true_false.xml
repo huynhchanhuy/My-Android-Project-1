@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/tab8_true_false_level_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="Anh văn cơ bản"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#9A0E14"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tab8_true_false_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="aaa"
+            android:textColor="#0000CC" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/layout3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/layout4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true" >
+
+            <EditText
+                android:id="@+id/tab8_true_false_choncau"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/btn_ketqua"
+                android:layout_alignLeft="@+id/btn_choncau1"
+                android:layout_alignTop="@+id/btn_lamlai"
+                android:layout_toLeftOf="@+id/btn_lamlai"
+                android:layout_weight="1"
+                android:inputType="number"
+                android:text="1" />
+
+            <Button
+                android:id="@+id/tab8_true_false_btn_choncau"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_toLeftOf="@+id/btn_lamlai"
+                android:text="Đến câu" />
+
+            <TextView
+                android:id="@+id/tab8_true_false_dapan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/tab8_true_false_btn_chualam"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Câu chưa làm" />
+
+            <Button
+                android:id="@+id/tab8_true_false_xem_dap_an"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Đáp Án"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout5"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true" >
+
+            <Button
+                android:id="@+id/tab8_true_false_btn_cautruoc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:background="@drawable/back_button_pressed" />
+
+            <Button
+                android:id="@+id/tab8_true_false_btn_causau"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/btn_stop"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/next_button_pressed" />
+
+            <Button
+                android:id="@+id/tab8_true_false_btn_lamlai"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Làm lại" />
+
+            <Button
+                android:id="@+id/tab8_true_false_btn_ketqua"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nộp bài" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/tab8_true_false_scrollview_text"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:layout_above="@+id/tab8_true_false_id_current"
+        android:layout_below="@+id/relativeLayout1" >
+
+        <TextView
+            android:id="@+id/tab8_true_false_doanvan"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/scrollView1"
+            android:layout_alignParentLeft="true"
+            android:text="Đoạn văn đoạn văn đoạn văn đoạn văn đoạn văn đoạn văn đoạn văn đoạn văn đoạn văn 
+            đoạn văn đoạn văn đoạn văn đoạn văn đoạn văn đoạn văn  "
+            android:textColor="#339933"
+            android:textSize="17dip" />
+
+    </ScrollView>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/layout3"
+        android:layout_alignParentLeft="true"
+        android:background="#F9F9FF"
+        android:orientation="vertical" >
+
+        <RadioGroup
+            android:id="@+id/tab8_true_false_radioGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="180dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:focusable="false"
+            android:focusableInTouchMode="false" >
+
+            <RadioButton
+                android:id="@+id/tab8_true_false_radio1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="14dp"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:text="TRUE"
+                android:textColor="#4C4C33" />
+
+            <RadioButton
+                android:id="@+id/tab8_true_false_radio2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:text="FALSE"
+                android:textColor="#4C4C33" />
+
+            <RadioButton
+                android:id="@+id/tab8_true_false_radio5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:text="DEFAULT"
+                android:textColor="#4C4C33"
+                android:visibility="gone" />
+        </RadioGroup>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/tab8_true_false_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/scrollView1"
+        android:layout_alignParentLeft="true"
+        android:text="Nội dung câu hỏi thứ i/total 123 Nội dung câu hỏi thứ i/total "
+        android:textColor="#000"
+        android:textSize="17dip" />
+
+    <TextView
+        android:id="@+id/tab8_true_false_id_current"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tab8_true_false_text"
+        android:layout_alignParentLeft="true"
+        android:text="Câu 10/20"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#CC00CC" />
+
+</RelativeLayout>

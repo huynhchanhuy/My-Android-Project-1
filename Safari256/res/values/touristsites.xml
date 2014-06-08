@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tourist_sites">
+        <item name="kidepo">Kidepo</item>
+        <item name="bwindi">Bwindi</item>
+        <item name="nile">Source of the Nile</item>
+        <item name="mabira">Mabira</item>
+        <item name="elizabeth">Queen Elizabeth National Park</item>
+    </string-array>
+</resources>

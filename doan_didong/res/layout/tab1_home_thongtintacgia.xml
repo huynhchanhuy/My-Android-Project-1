@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/slidingup_background"
+    android:orientation="vertical" >
+	<ImageView 
+		        android:background="@drawable/header_thongtintacgia"
+		        android:layout_width="fill_parent"
+		        android:layout_height="50dp"
+		        android:gravity="center"
+		        android:layout_gravity="center_horizontal"/>
+    <ImageView 
+		        android:background="@drawable/logo_uit"
+		        android:layout_width="100dp"
+		        android:layout_height="100dp"
+		        android:gravity="center"
+		        android:layout_gravity="center_horizontal"/>
+		    <TextView 
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:textColor="#960c0c"
+		        android:gravity="center"
+		        android:layout_gravity="center_horizontal"
+		        android:text="Trường ĐH Công Nghệ Thông Tin"/>
+		    <TextView 
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:textColor="#960c0c"
+		        android:gravity="center"
+		        android:layout_gravity="center_horizontal"
+		        android:text="Khoa Mạng Máy Tính và Truyền Thông"/>
+
+    <LinearLayout 
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:layout_height="wrap_content">
+    	<TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_gravity="left"
+		        android:textAppearance="?android:attr/textAppearanceMedium"
+		        android:textStyle="bold"
+		        android:text="Giảng viên hướng dẫn:"/>
+		    <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_gravity="left"
+		        android:textAppearance="?android:attr/textAppearanceMedium"
+		        android:textStyle="bold|italic"
+		        android:layout_marginLeft="20dp"
+		        android:textColor="#00ff00"
+		        android:text="ThS. Trần Bá Nhiệm" />
+		
+		    <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_gravity="left"
+		        android:textStyle="bold"
+		        android:textAppearance="?android:attr/textAppearanceMedium"
+		        android:text="\nNhóm sinh viên thực hiện:" />
+		
+		    <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_gravity="left"
+		        android:textStyle="bold|italic"
+		        android:textColor="#00ff00"
+		        android:layout_marginLeft="20dp"
+		        android:textAppearance="?android:attr/textAppearanceMedium"
+		        android:text="Trần Võ Khôi Nguyên - 09520193 " />
+		    <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_gravity="left"
+		        android:textStyle="bold|italic"
+		        android:textColor="#00ff00"
+		        android:layout_marginLeft="20dp"
+		        android:textAppearance="?android:attr/textAppearanceMedium"
+		        android:text="Huỳnh Thái Dương     - 09520049 " />
+		    <TextView
+		        android:textColor="#feb900"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_gravity="left"
+		        android:paddingTop="10dp"
+		        android:textStyle="bold"
+		        android:textAppearance="?android:attr/textAppearanceMedium"
+		        android:text="Lớp: MMT04/UIT" />
+	</LinearLayout>
+</LinearLayout>

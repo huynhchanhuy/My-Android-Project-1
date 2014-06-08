@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#F1F1F2"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="#666"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="#FFF"
+        android:textStyle="bold"
+        android:text="THAY ĐỔI HÌNH ĐẠI DIỆN"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:text="Đường dẫn file ảnh:"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/tab2_hinhdaidien_filepath"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:textStyle="italic"
+        android:textColor="#FF0000"
+        android:text="chưa chọn ảnh" />
+
+    <Button
+        android:id="@+id/tab2_hinhdaidien_choosefile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/btnStyleBlue"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Chọn ảnh" />
+
+    <Button
+        android:id="@+id/tab2_hinhdaidien_upload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/btnStyleBlue"
+        android:layout_marginLeft="10dp"
+        android:text="Upload ảnh" />
+    
+</LinearLayout>

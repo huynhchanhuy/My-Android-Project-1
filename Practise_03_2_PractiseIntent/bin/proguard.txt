@@ -1,0 +1,12 @@
+# view AndroidManifest.xml #generated:38
+-keep class com.example.practise_03_2_practiseintent.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:35
+-keep class com.google.android.gms.ads.AdActivity { <init>(...); }
+
+# view res/layout/activity_main.xml #generated:15
+-keep class com.google.android.gms.ads.AdView { <init>(...); }
+
+# onClick res/layout/activity_main.xml #generated:25
+-keepclassmembers class * { *** onclick(...); }
+

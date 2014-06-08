@@ -1,0 +1,115 @@
+<ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/background_register"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="0dp"
+    android:orientation="vertical" >
+
+    <com.example.doan_didong.ScalableImageView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:padding="0dp"
+        android:src="@drawable/header_thaydoi_matkhau" />
+    <TableLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="50dp"
+	    android:layout_marginRight="50dp"
+	    android:layout_marginTop="10dp"
+	    android:layout_gravity="center" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mật khẩu: đã được mã hóa"
+            android:textStyle="bold" />
+
+	    <TextView
+	        android:id="@+id/tab2_cauhoibimat_cu"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Câu hỏi bí mật:"
+	        android:textStyle="bold" />
+	     <TextView
+	        android:id="@+id/tab2_cautraloibimat_cu"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Câu trả lời bí mật:"
+	        android:textStyle="bold" />
+	     
+	     <TextView
+	        android:layout_marginTop="10dp"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Chọn bên dưới để thay đổi:"
+	        android:textStyle="bold" />
+	     
+	     
+	     
+	    <EditText
+	        android:id="@+id/tab2_matkhau_cu"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text=""
+	        android:inputType="textPassword"
+	        android:hint="Nhập mật khẩu cũ" />
+
+	    <EditText
+	        android:id="@+id/tab2_matkhau_moi"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:inputType="textPassword"
+	        android:hint="Nhập mật khẩu mới" />
+
+	    <EditText
+	        android:id="@+id/tab2_matkhau_moi_repeat"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:inputType="textPassword"
+	        android:hint="Nhập lại mật khẩu mới" />
+
+	    <CheckBox
+	        android:id="@+id/tab2_checkbox_change_bimat"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:paddingTop="10dp"
+	        android:text="Thay đổi câu hỏi bí mật" />
+	    
+	    <TextView
+	        android:id="@+id/tab2_text_chon_cau_hoi_bi_mat_moi"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Chọn câu hỏi bí mật mới:"
+	        android:textStyle="normal" />
+
+	    <Spinner
+	        android:id="@+id/tab2_cauhoi_bimat_moi"
+	        android:layout_width="match_parent"
+	        android:layout_height="40dp"
+	        android:entries="@array/cau_hoi_bi_mat" />
+
+	    <EditText
+	        android:id="@+id/tab2_cau_traloi_bimat_moi"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:hint="Câu trả lời bí mật mới" />
+	
+	    <Button
+	        android:id="@+id/tab2_btn_thaydoi_matkhau"
+	        android:layout_width="wrap_content"
+	        android:layout_height="50dp"
+	        android:layout_margin="20dp"
+	        android:textSize="25dp"
+	        android:background="@drawable/btn_style_tab2_thaydoi_thongtin" />
+	  </TableLayout>
+    
+</LinearLayout>
+</ScrollView>

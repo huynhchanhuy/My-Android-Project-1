@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg3"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tab1_welcome_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chào!"
+        android:textColor="#FF0000"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:textColor="#0000FF"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Chương trình EASY ENGLISH" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="Chương trình hỗ trợ các bạn học tiếng anh một cách dễ dàng hơn."
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="Bạn nên xem hướng dẫn sử dụng trước"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <Button
+        android:id="@+id/tab1_btn_huongdan"
+        style="@style/btnStyleBlue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:gravity="center"
+        android:text="Hướng dẫn sử dụng" />
+
+    <Button
+        android:id="@+id/tab1_btn_binhluan"
+        style="@style/btnStyleBrown"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Bình luận" />
+
+    <Button
+        android:id="@+id/tab1_btn_thongtintacgia"
+        style="@style/btnStyleRed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Thông tin chương trình" />
+</LinearLayout>

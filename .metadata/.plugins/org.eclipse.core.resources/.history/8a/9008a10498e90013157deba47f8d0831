@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Practise_03_2_PractiseIntent</string>
+    <string name="action_settings">Settings</string>
+    
+    <string-array name="intents">
+        <item>Open Browser</item>
+        <item>Call Someone</item>
+        <item>Dial</item>
+        <item>Open Browser</item>
+        <item>Open Browser</item>
+        <item>Open Browser</item>
+        <item>Open Browser</item>
+        <item>Open Browser</item>
+    </string-array>
+
+</resources>

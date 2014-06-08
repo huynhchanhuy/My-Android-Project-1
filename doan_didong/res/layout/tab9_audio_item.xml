@@ -1,0 +1,109 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="10dp"
+    android:background="@drawable/item_listview_style_nguphap" >
+
+    <TextView
+        android:id="@+id/tab9_audio_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ID"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tab9_audio_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/tab9_audio_ngay_luu"
+        android:text="1. Audio thứ nhất abc e ac fwe cwe cwav vaw va vrv wa "
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#9A0E14"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tab9_audio_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tab9_audio_ngay_luu"
+        android:layout_toLeftOf="@+id/tab9_audio_next_btn"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp"
+        android:text="nội dung tóm tắt của bài học 1...nội dung tóm tắt của bài học 1...nội dung tóm tắt của bài học 1..."
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#1500FF" />
+
+    <TextView
+        android:id="@+id/tab9_audio_luotview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/tab9_audio_title"
+        android:text="xem 123"
+        android:textColor="#009933" />
+
+    <TextView
+        android:id="@+id/tab9_audio_ngay_luu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tab9_audio_title"
+        android:layout_toLeftOf="@+id/tab9_audio_next_btn"
+        android:text="Ngày lưu: 11/11/2013"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#666666" />
+
+    <Button
+        android:id="@+id/tab9_audio_next_btn"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/btn_style_btn_next"
+        android:focusable="false"
+        android:focusableInTouchMode="false" />
+
+    <Button
+        android:id="@+id/tab9_audio_delete"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tab9_audio_text"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/btn_style_btn_delete"
+        android:focusable="false"
+        android:focusableInTouchMode="false" />
+
+    <Button
+        android:id="@+id/tab9_audio_view"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_alignBaseline="@+id/tab9_audio_delete"
+        android:layout_alignBottom="@+id/tab9_audio_delete"
+        android:layout_toRightOf="@+id/tab9_audio_delete"
+        android:background="@drawable/btn_style_btn_view"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/tab9_audio_listen"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_alignBaseline="@+id/tab9_audio_view"
+        android:layout_alignBottom="@+id/tab9_audio_view"
+        android:layout_toRightOf="@+id/tab9_audio_view"
+        android:background="@drawable/btn_style_btn_listen"
+        android:focusable="false"
+        android:focusableInTouchMode="false" />
+
+</RelativeLayout>

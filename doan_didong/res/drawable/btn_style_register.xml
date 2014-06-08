@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:drawable="@drawable/btn_dang_ki_ngay_press"
+        android:state_focused="true"
+        android:state_pressed="true" />
+    <item android:drawable="@drawable/btn_dang_ki_ngay_press"
+        android:state_focused="false"
+        android:state_pressed="true" />
+
+    <item android:drawable="@drawable/btn_dang_ki_ngay"
+        android:state_focused="false"
+        android:state_pressed="false" />
+</selector> 
+
+<!--
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+     <item android:state_pressed="true" >
+         <shape android:shape="rectangle"  >
+             <corners android:radius="10dip" />
+             <stroke android:width="2dip" android:color="#ffffff" />
+             <gradient  android:angle="-90"  android:startColor="#FFF900" android:endColor="#FFF900"  />            
+         </shape>
+     </item>
+    <item android:state_focused="true">
+         <shape android:shape="rectangle"  >
+             <corners android:radius="10dip" />
+             <stroke android:width="2dip" android:color="#F9F9F9" />
+             <solid  android:color="#e0341e"/>       
+         </shape>
+     </item>  
+    <item >
+        <shape android:shape="rectangle"  >
+             <corners android:radius="10dip" />
+             <stroke android:width="2dip" android:color="#ffffff" />
+             <gradient  android:angle="-90"  android:startColor="#B8B851" android:endColor="#FFFFFF" />
+             <padding
+	            android:left="10dp"
+	            android:top="10dp"
+	            android:right="10dp"
+	            android:bottom="10dp" />            
+         </shape>
+     </item>
+</selector>
+ -->

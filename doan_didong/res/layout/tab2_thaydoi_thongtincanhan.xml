@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/background_register"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="0dp"
+    
+    android:orientation="vertical" >
+
+    <com.example.doan_didong.ScalableImageView
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_margin="0dp"
+        android:padding="0dp"
+        android:src="@drawable/header_thaydoi_thongtin" />
+    <TableLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="50dp"
+	    android:layout_marginRight="50dp"
+	    android:layout_marginTop="5dp"
+	    android:layout_gravity="center" >
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Họ và tên"
+	        android:textStyle="bold" />
+	    <EditText
+	        android:id="@+id/ed_thaydoi_hovaten"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text=""
+	        android:hint="Họ và tên" />
+	    
+	    <TextView
+	        android:id="@+id/hien_thi_ngay_sinh"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Ngày sinh:"
+	        android:textStyle="bold" />
+	    <Button
+	        android:id="@+id/btn_thaydoi_ngaysinh"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Chọn ngày sinh mới" />
+	    
+	    <LinearLayout
+	            android:layout_width="wrap_content"
+	            android:layout_height="match_parent"
+	            android:orientation="horizontal" >
+	            <TextView 
+	                	android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"
+				        android:text="Giới tính" />
+	            <RadioGroup
+				        android:id="@+id/radiogroup_thaydoi_gioitinh"
+				        android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"
+				        android:orientation="horizontal" >
+				 
+				        <RadioButton
+				            android:id="@+id/radio_thaydoi_nam"
+				            android:layout_width="wrap_content"
+				            android:layout_height="wrap_content"
+				            android:text="Nam" 
+				            android:checked="true" />
+				        <RadioButton
+			                android:id="@+id/radio_thaydoi_nu"
+			                android:layout_width="wrap_content"
+			                android:layout_height="wrap_content"
+			                android:text="Nữ" />
+			 
+			    </RadioGroup>
+	       </LinearLayout>
+	    
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Địa chỉ"
+	        android:textStyle="bold" />
+	    <EditText
+	        android:id="@+id/ed_thaydoi_diachi"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text=""
+	        android:hint="Địa chỉ" />
+	    
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Email"
+	        android:textStyle="bold" />
+	    <EditText
+	        android:id="@+id/ed_thaydoi_email"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:inputType="textEmailAddress"
+	        android:text=""
+	        android:hint="Email" />
+	
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Số điện thoại"
+	        android:textStyle="bold" />
+	    <EditText
+	        android:id="@+id/ed_thaydoi_sdt"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:inputType="phone"
+	        android:text=""
+	        android:hint="Số điện thoại" />
+	
+	    <Button
+	        android:id="@+id/btn_thaydoi_thongtincanhan"
+	        android:layout_width="wrap_content"
+	        android:layout_height="50dp"
+	        android:layout_marginTop="5dp"
+	        android:textSize="25dp"
+	        android:background="@drawable/btn_style_tab2_thaydoi_thongtin" />
+	  </TableLayout>
+    
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources  xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="search">Search</string>
+    <string name="app_name">Safari256</string>
+    <string name="username_textview">Username:</string>
+    <string name="password_textview">Password:</string>
+    <string name="submit">Submit</string>
+    <string name="post_comment">Post Comment</string>
+    <string name="read_comments_title">Recent Comments</string>
+    <string name="passwords_not_same">Passwords don\'t match</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+<string name="login">login</string>
+<string name="Not_Registered">Not Registered, Here!!</string>
+<!-- add property -->
+<string name="quit">Take a Photo</string>
+<string name="image">Browse for Image</string>
+<string name="info">Contact Info</string>
+<string name="price">Price(UGX)</string>
+<string name="safari">Tour Uganda with your Phone</string>
+<string name="description">Description</string>
+<string name="title">Title</string>
+<string name="any">Image(If any)</string>
+<string name="message">Message</string>
+<string name="cancel">Cancel</string>
+<string name="status">Status</string>
+<string name="location">Location</string>
+<string name="property">Property Name</string>
+
+<string name="properties">All Animals</string>
+
+<string name="contact">Contact Us</string>
+
+<string name="add">Add New Property</string>
+
+<string name="logout">Logout</string>
+
+<string name="fullname">Full Name</string>
+<string name="email">Email Address</string>
+
+<string name="send">Send Message</string>
+<string name="back">Go Back</string>
+
+<string name="address">Address</string>
+<string name="fname">FirstName:</string>
+
+<string name="lname">LastName:</string>
+
+<string name="likes">likes</string>
+<!-- from demo -->
+ <string name="title_crossfade">Brief background</string>
+    <string name="title_card_flip">Favourite Animals</string>
+    <string name="title_screen_slide">Detailed background</string>
+    <string name="title_zoom">Zoom Animals</string>
+    <string name="title_layout_changes">Tour sites Guide</string>
+    <string name="title_template_step">Step <xliff:g id="step_number">%1$d</xliff:g>: Safari256</string>
+
+    <!-- Actions -->
+    <string name="action_toggle">Toggle indicator</string>
+    <string name="action_add_item">Add item</string>
+    <string name="action_remove_item">Remove item</string>
+    <string name="action_previous">Previous</string>
+    <string name="action_next">Next</string>
+    <string name="action_finish">Finish</string>
+    <string name="action_info">Photo info</string>
+    <string name="action_photo">View photo</string>
+
+    <!-- Messages -->
+    <string name="message_empty_layout_changes">Add to view all tourist sites in Uganda now.</string>
+    <string name="message_zoom_touch_expand">Touch a photo to expand it.</string>
+
+    <!-- Accessibility-only descriptions -->
+    <string name="description_image_1">Mother Gorilla</string>
+    <string name="description_image_2">Chimpanzee</string>
+    <string name="description_zoom_touch_close">Expanded Animal (touch to close)</string>
+
+    <!-- Other strings -->
+    <string name="card_back_title">Angry Red Android</string>
+    <string name="card_back_description"><![CDATA[Introduction to Safari256]]></string>
+    <string name="lorem_ipsum"><![CDATA[The government of Uganda has recently embarked on making Uganda a tourist hub in East Africa through activities like the Kigulu Hill Climbing, tourism card have also been introduced by the tourism industry but the essential system to enable tourists to easily access vital information on different tourist locations around Uganda has not yet been addressed therefore our group (CODE+256) came up with this idea to create a mobile app based on the Android OS. The primary theme of the app is to welcome tourists and visitors in Uganda in a unique, fun, and interactive way, while creating and enhancing awareness of the many tourists’ sites in Uganda.
+This app will act as a host for tourism information and will be hub from which the tourism industry of Uganda will advertise its tourism potential to the rest of the world.
+]]></string>
+
+     <string name="bwindi"><![CDATA[Uganda’s dense forests are home to over half the world’s 750 or so mountain gorillas - the rest live in the neighboring Rwanda and the Democratic Republic of the Congo. As they do not survive in captivity, preservation of these fragile habitats is essential for their survival.
+
+Gorillas display uncanny human characteristics. The close-knit family groups are headed by a silverback - a mature male - who selects places for the group to eat and sleep, and has many privileges, including the right to feed first. This privilege pays off for the rest of the family, as if the group is threatened, the silverback - weighing up to 120kg (260lbs) - will defend them to the death, if necessary.
+
+Generally though, the gorilla is a gentle species. They are considered to be highly intelligent, have been observed using tools like other great apes, and communicate using a variety of vocal sounds.
+
+
+]]></string>
+       <string name="kidepo"><![CDATA[Kidepo Valley National Park lies in the rugged, semi arid valleys between Uganda’s borders with Sudan and Kenya, some 700km from Kampala. Gazetted as a national park in 1962, it has a profusion of big game and hosts over 77 mammal species as well as around 475 bird species.
+
+Kidepo is Uganda’s most isolated national park, but the few who make the long journey north through the wild frontier region of Karamoja would agree that it is also the most magnificent, for Kidepo ranks among Africa’s finest wildernesses. From Apoka, in the heart of the park, a savannah landscape extends far beyond the gazetted area, towards horizons outlined by distant mountain ranges.
+
+During the dry season, the only permanent water in the park is found in wetlands and remnant pools in the broad Narus Valley near Apoka. These seasonal oases, combined with the open, savannah terrain, make the Narus Valley the park’s prime game viewing location. - See more at: http://www.ugandawildlife.org/explore-our-parks/parks-by-name-a-z/kidepo-valley-national-park#sthash.Vqn9iqxA.dpuf
+]]></string>
+ <string name="Mabira"><![CDATA[A huge and beautiful forest with an extensive visitors trail network. There are 10 forest trails catering for people of all time schedules and abilities. Both guided and unguided trails are available. The Mabira Forest project was established with help from the European Union. If you are not rushing to the west of Uganda or needing to get to Kampala in a hurry then Mabira Forest is a pleasant backwater and stop over to consider.
+
+
+Location:
+Mabira Forest straggles the main Jinja to Kampala highway; it is 54 km from Kampala and 20 km from Jinja. The forest center is on the edge of Najjembe village approximately 500m north of the main road. Coming from Kampala it is signposted to your left just before you reach the roadside market at Najjembe.
+
+
+A short walk or drive down this marrum road will bring you to the forest center where parking is available and the Visitors center.
+
+
+
+
+]]></string>
+
+    <string name="nile"><![CDATA[The Nile is a major north-flowing river in northeastern Africa, generally regarded as the longest river in the world.
+ It is 6,853 km (4,258 miles) long. The Nile is an "international" river as its water resources are shared by eleven countries, namely, Tanzania, Uganda, Rwanda, Burundi, Democratic Republic of the Congo, Kenya, Ethiopia, Eritrea, South Sudan, Sudan and Egypt.
+ In particular, the Nile is the primary water resource and life artery for Egypt and Sudan.
+The Nile has two major tributaries, the White Nile and Blue Nile. The White Nile is longer and rises in the Great Lakes region of central Africa, with the most distant source still undetermined but located in either Rwanda or Burundi. It flows north through Tanzania, Lake Victoria,Uganda and South Sudan. The Blue Nile is the source of most of the water and fertile soil.
+ It begins at LakeTana in Ethiopia at 12°02′09″N037°15′53″E and flows into Sudan from the southeast. The two rivers meet near the Sudanese capital of Khartoum.
+The northern section of the river flows almost entirely through desert, from Sudan into Egypt, a country whose civilization has depended on the river since ancient times. Most of the population and cities of Egypt lie along those parts of the Nile valley north of Aswan, and nearly all the cultural and historical sites of Ancient Egypt are found along riverbanks. The Nile ends in a large delta that empties into the Mediterian sea
+
+
+
+
+
+]]></string>
+
+
+
+
+<string name="takephoto">Takephoto</string>
+    <string name="mabira">Mabira</string>
+    <string name="Rnile">The Nile</string>
+    <string name="bwind">Bwindi</string>
+</resources>

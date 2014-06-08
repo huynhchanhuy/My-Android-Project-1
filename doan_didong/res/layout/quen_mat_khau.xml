@@ -1,0 +1,98 @@
+<ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_quen_mat_khau">
+    
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="0dp"
+    
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+	<com.example.doan_didong.ScalableImageView
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="0dp"
+        android:paddingTop="0dp"
+        android:src="@drawable/header_quen_mat_khau" />
+    
+	<TextView 
+	        android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:text="Nhập vào chính xác thông tin"
+		    android:gravity="center"
+		    android:layout_marginTop="5dp"
+		    android:textSize="20dp"
+		    android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+    <TableLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="50dp"
+	    android:layout_marginRight="50dp"
+	    android:layout_marginTop="20dp"
+	    android:layout_gravity="center" >
+	    
+	    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Tên đăng nhập" />
+	    <EditText
+	        android:id="@+id/ed_username"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:ems="10" />
+	    
+		<TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Email" />
+	    <EditText
+	        android:id="@+id/ed_email"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:inputType="textEmailAddress"
+	        android:ems="10" />
+	    
+	    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Câu hỏi bí mật" />
+	     <Spinner
+	        android:id="@+id/cau_hoi_bi_mat"
+	        android:layout_width="match_parent"
+	        android:layout_height="40dp"
+	        android:entries="@array/cau_hoi_bi_mat"
+	        android:prompt="@string/cau_hoi_bi_mat1" />
+	    
+	     <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Câu trả lời bí mật" />
+		<EditText
+	        android:id="@+id/ed_cau_tra_loi_bi_mat"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:ems="10" />
+
+	    
+	    
+		
+	    <Button
+	        android:id="@+id/btn_quen_mat_khau"
+	        android:layout_height="80dp"
+	        android:layout_marginLeft="50dp"
+	        android:layout_marginRight="50dp"
+	        android:layout_marginTop="5dp"
+	        android:background="@drawable/btn_style_forgot_pass" />
+	  </TableLayout>
+    
+</LinearLayout>
+</ScrollView>

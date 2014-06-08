@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/item_listview_style"
+    android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tab1_home_binhluan_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ID"
+            android:visibility="gone" />
+		<TextView
+            android:id="@+id/tab1_home_binhluan_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textStyle="bold"
+            android:textColor="#9A0E14"
+            android:text="Thành viên: nguyen" />
+
+		<TextView
+		    android:id="@+id/tab1_home_binhluan_ngay"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_marginLeft="10dp"
+		    android:text="Ngày: 25/12/2013"
+		    android:textAppearance="?android:attr/textAppearanceSmall"
+		    android:textColor="#969696"
+		    android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tab1_home_binhluan_noidung"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#1500FF"
+            android:text="nội dung bình luận" />
+</LinearLayout>    

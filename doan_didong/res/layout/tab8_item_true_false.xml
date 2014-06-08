@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="20dp"
+    android:paddingBottom="10dp"
+    android:background="@drawable/item_listview_style_nguphap" >
+
+    <TextView
+        android:id="@+id/tab8_true_false_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tab8_true_false_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/tab8_tracnghiem_id"
+        android:text="1. Anh văn cơ bản"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#9A0E14"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tab8_true_false_doanvan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tab8_true_false_title"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp"
+        android:text="Mô tả ngắn: video nói về cuộc sống của mọi người trong mùa thu ở vùng Nam Mỹ."
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#1500FF" />
+
+    <TextView
+        android:id="@+id/tab8_true_false_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tab8_true_false_btn_start"
+        android:layout_below="@+id/tab8_true_false_doanvan"
+        android:text="Total question: 10"
+        android:textColor="#009933" />
+
+    <Button
+        android:id="@+id/tab8_true_false_btn_start"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tab8_true_false_num"
+        android:layout_marginLeft="15dp"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:background="@drawable/btn_test_pressed"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+</RelativeLayout>

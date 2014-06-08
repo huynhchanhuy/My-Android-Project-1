@@ -1,0 +1,184 @@
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+
+
+        <RatingBar
+            android:id="@+id/ratingbar_submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:max="5"
+            android:stepSize="1.0"
+             />
+
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit" />
+        <TextView 
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kết quả bình chọn"/>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <LinearLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        
+        <RatingBar
+            style="?android:attr/ratingBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:max="5"
+            android:stepSize="1.0"
+            android:rating="1.0"
+            android:clickable="false" />
+        <TextView 
+            android:id="@+id/luotbinhchon_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="   10 bình chọn"/>
+		<TextView 
+		    android:id="@+id/phantram_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="   10 %"/>
+        </LinearLayout>
+        
+        
+        
+        
+        
+        <LinearLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        
+        <RatingBar
+            style="?android:attr/ratingBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:max="5"
+            android:stepSize="1.0"
+            android:rating="2.0"
+            android:clickable="false" />
+        <TextView 
+            android:id="@+id/luotbinhchon_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="   10 bình chọn"/>
+		<TextView 
+		    android:id="@+id/phantram_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="   10 %"/>
+        </LinearLayout>
+        
+        
+        
+        
+        <LinearLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        
+        <RatingBar
+            style="?android:attr/ratingBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:max="5"
+            android:stepSize="1.0"
+            android:rating="3.0"
+            android:clickable="false" />
+        <TextView 
+            android:id="@+id/luotbinhchon_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="   10 bình chọn"/>
+		<TextView 
+		    android:id="@+id/phantram_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="   10 %"/>
+        </LinearLayout>
+        
+        
+        
+        
+        
+        <LinearLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        
+        <RatingBar
+            style="?android:attr/ratingBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:max="5"
+            android:stepSize="1.0"
+            android:rating="4.0"
+            android:clickable="false" />
+        <TextView 
+            android:id="@+id/luotbinhchon_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="   10 bình chọn"/>
+		<TextView 
+		    android:id="@+id/phantram_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="   10 %"/>
+        </LinearLayout>
+        
+        
+        
+        
+        
+        <LinearLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        
+        <RatingBar
+            style="?android:attr/ratingBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:max="5"
+            android:stepSize="1.0"
+            android:rating="5.0"
+            android:clickable="false" />
+        <TextView 
+            android:id="@+id/luotbinhchon_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="   10 bình chọn"/>
+		<TextView 
+		    android:id="@+id/phantram_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="   10 %"/>
+        </LinearLayout>
+        
+        
+        
+        
+      
+
+    </LinearLayout>
+
+    

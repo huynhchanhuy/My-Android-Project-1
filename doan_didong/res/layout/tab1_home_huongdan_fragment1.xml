@@ -1,0 +1,82 @@
+<ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout 
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:paddingLeft="20dp"
+    	android:paddingRight="20dp"
+    	android:background="#F1F2F1"
+    	android:layout_gravity="center_horizontal"
+    	android:gravity="center"
+    	android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:textColor="#FF0000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal"
+            android:textStyle="bold|italic"
+            android:text="Trang 1/5 " />
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:gravity="left"
+            android:layout_gravity="left"
+            android:paddingLeft="10dp"
+            android:text="Đăng nhập, đăng kí, lấy lại mật khẩu" />
+        
+        <com.example.doan_didong.ScalableImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="center"
+            android:src="@drawable/screenshot_1" />
+        
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:textStyle="bold"
+            android:layout_gravity="left"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="10dp"
+            android:text="Người dùng có thể để lại bình luận" />
+        <com.example.doan_didong.ScalableImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/screenshot_2" />
+        
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:textStyle="bold"
+            android:layout_gravity="left"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="10dp"
+            android:text="Người dùng có thể xem, thay đổi mật khẩu và thông tin cá nhân của mình" />
+        <com.example.doan_didong.ScalableImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/screenshot_3" />
+        <com.example.doan_didong.ScalableImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/screenshot_4" />
+        <com.example.doan_didong.ScalableImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/screenshot_5" />
+        
+    </LinearLayout>
+</ScrollView>

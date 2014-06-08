@@ -1,0 +1,117 @@
+<ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/background_thongtincanhan"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="0dp"
+    android:orientation="vertical" >
+
+    <com.example.doan_didong.ScalableImageView
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_margin="0dp"
+        android:padding="0dp"
+        android:src="@drawable/header_thongtincanhan" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center" >
+
+        <com.example.doan_didong.ScalableImageView
+            android:id="@+id/img_hinhdaidien"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_hinhdaidien" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="0dp"
+            android:paddingLeft="10dp"
+            android:layout_gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/txt_hovaten"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Họ và tên: Trần Võ Khôi Nguyên"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_ngaysinh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ngày sinh: 26-08-1991" />
+
+            <TextView
+                android:id="@+id/txt_gioitinh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Giới tính: Nam" />
+
+            <TextView
+                android:id="@+id/txt_diachi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Địa chỉ: Phan Thiết, Bình Thuận" />
+
+             <TextView
+                 android:id="@+id/txt_email"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="Email: tranvokhoinguyen@gmail.com" />
+             <TextView
+                 android:id="@+id/txt_sdt"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="Số điện thoại: 01669383915" />
+
+        </LinearLayout>
+
+       
+
+    </LinearLayout>
+
+    <TableLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="10dp"
+	    android:layout_marginRight="10dp"
+	    android:layout_marginTop="30dp"
+	    android:layout_gravity="center" >
+	    <Button
+	        android:id="@+id/btn_thaydoi_thongtincanhan"
+	        android:layout_width="wrap_content"
+	        android:layout_height="70dp"
+	        android:layout_marginTop="10dp"
+	        android:background="@drawable/btn_style_thaydoi_thongtin" />
+	    <Button
+	        android:id="@+id/btn_thaydoi_matkhau"
+	        android:layout_width="wrap_content"
+	        android:layout_height="70dp"
+	        android:layout_marginTop="10dp"
+	        android:background="@drawable/btn_style_thaydoi_matkhau" />
+	    <Button
+	        android:id="@+id/btn_thaydoi_hinhdaidien"
+	        android:layout_width="wrap_content"
+	        android:layout_height="70dp"
+	        android:layout_marginTop="10dp"
+	        android:background="@drawable/btn_style_thaydoi_hinhdaidien" />
+	    <Button
+	        android:id="@+id/btn_dang_xuat"
+	        android:layout_width="wrap_content"
+	        android:layout_height="70dp"
+	        android:layout_marginTop="10dp"
+	        android:background="@drawable/btn_style_dang_xuat" />
+	    
+    </TableLayout>
+
+</LinearLayout>
+</ScrollView>

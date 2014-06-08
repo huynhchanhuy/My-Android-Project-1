@@ -1,0 +1,48 @@
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/score_nametest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bài test: "
+            android:textColor="#660099"
+             />
+
+        <TextView
+            android:id="@+id/score_diemso"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FF0000"
+            android:text="Điểm số: "
+             />
+
+        <TextView
+            android:id="@+id/score_ngaytest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ngày: "
+             />
+
+        <TextView
+            android:id="@+id/score_socauhoi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <Button
+            android:id="@+id/btn_score_xoa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Xoá kết quả" />
+        <TextView
+            android:id="@+id/score_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            
+            android:visibility="invisible"/>
+
+    </LinearLayout>

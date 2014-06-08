@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/appIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="3dp"
+        android:gravity="right"
+        android:src="@drawable/linkedin" />
+    <ImageView
+        android:id="@+id/titleTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:src="@drawable/youtube"
+        android:layout_alignBottom="@+id/appIcon"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true" />
+    <!-- android:layout_alignRight="@+id/dlTxt"
+     android:layout_alignEnd="@+id/dlTxt" -->
+
+
+    <LinearLayout
+        android:id="@+id/ratingCntr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/appIcon"
+        android:layout_below="@id/titleTxt"
+        android:layout_marginLeft="5dp"
+        android:orientation="horizontal" >
+    </LinearLayout>
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_below="@+id/ratingCntr">
+        <!-- android:layout_alignRight="@+id/dlTxt"
+         android:layout_alignEnd="@+id/dlTxt"-->
+
+
+
+        <TextView
+            android:id="@+id/dlTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/Mabira"
+            android:layout_alignParentBottom="true"
+            android:layout_alignLeft="@+id/appIcon"
+            android:layout_alignStart="@+id/appIcon"
+            android:layout_alignTop="@+id/ratingCntr" />
+    </ScrollView>
+</RelativeLayout>

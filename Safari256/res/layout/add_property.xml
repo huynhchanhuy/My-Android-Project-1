@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:id="@+id/LinearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <!-- Name Label -->
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:paddingTop="10dip"
+            android:text="@string/property"
+            android:textSize="17sp" />
+
+        <!-- Input Name -->
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dip"
+            android:inputType="text"
+            android:layout_marginBottom="15dip"
+            android:singleLine="true" />
+
+        <!-- Location Label -->
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:paddingTop="10dip"
+            android:text="@string/location"
+            android:textSize="17sp" />
+
+        <!-- Input Location -->
+
+        <EditText
+            android:id="@+id/location"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dip"
+              android:inputType="text"
+            android:layout_marginBottom="15dip"
+            android:lines="2" />
+
+        <!-- Name Status -->
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:paddingTop="10dip"
+            android:text="@string/status"
+            android:textSize="17sp" />
+
+        <!-- Input Status -->
+
+        <EditText
+            android:id="@+id/status"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dip"
+            android:inputType="text"
+            android:layout_marginBottom="15dip"
+            android:singleLine="true" />
+
+        <!-- Price Label -->
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:paddingTop="10dip"
+            android:text="@string/price"
+            android:textSize="17sp" />
+
+        <!-- Input Price -->
+
+        <EditText
+            android:id="@+id/price"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dip"
+            android:layout_marginBottom="15dip"
+            android:inputType="numberDecimal"
+            android:singleLine="true" />
+
+        <!-- Description Label -->
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:paddingTop="10dip"
+            android:text="@string/description"
+            android:textSize="17sp" />
+
+        <!-- Input description -->
+
+        <EditText
+            android:id="@+id/desc"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dip"
+            android:layout_marginBottom="15dip"
+            android:inputType="text"
+            android:gravity="top"
+            android:lines="3" />
+
+        <!-- Button Create Product -->
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:paddingTop="10dip"
+            android:text="@string/any"
+            android:textSize="17sp" />
+
+        <ImageView
+            android:id="@+id/imgView"
+            android:layout_width="292dp"
+            android:layout_height="0dip"
+            android:layout_weight="1.14"
+            android:src="@drawable/kidepo7" 
+            android:contentDescription="@string/safari"/>
+
+        <Button
+            android:id="@+id/browse"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/image" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:paddingTop="10dip"
+            android:text="@string/info"
+            android:textSize="17sp" />
+
+        <!-- Input description -->
+
+        <EditText
+            android:id="@+id/cont"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dip"
+            android:layout_marginBottom="15dip"
+            android:gravity="top"
+            android:inputType="text"
+            android:lines="2"
+             />
+
+        <Button
+            android:id="@+id/btnNew"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/submit" />
+
+        <!-- Button Cancel -->
+
+        <Button
+            android:id="@+id/btnKanso"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/cancel" />
+    </LinearLayout>
+
+</ScrollView>

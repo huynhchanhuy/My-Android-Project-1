@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout 
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:paddingLeft="30dp"
+    	android:paddingRight="30dp"
+    	android:background="#F1F2F1"
+    	android:layout_gravity="center_horizontal"
+    	android:gravity="center"
+    	android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:textColor="#FF0000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal"
+            android:textStyle="bold|italic"
+            android:text="Trang 3/5 " />
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:gravity="left"
+            android:layout_gravity="left"
+            android:paddingLeft="10dp"
+            android:text="- Tổng hợp ngữ pháp tiếng anh" />
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:gravity="left"
+            android:layout_gravity="left"
+            android:paddingLeft="10dp"
+            android:text="- Xem chi tiết" />
+        <com.example.doan_didong.ScalableImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitCenter"
+            android:src="@drawable/screenshot_31" />
+        <com.example.doan_didong.ScalableImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitCenter"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/screenshot_32" />
+        
+        
+        
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:gravity="left"
+            android:layout_gravity="left"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:text="- Danh sánh các audio luyện nghe" />
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:gravity="left"
+            android:layout_gravity="left"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:text="- Đánh dấu yêu thích" />
+        
+
+        <com.example.doan_didong.ScalableImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitCenter"
+            android:src="@drawable/screenshot_33" />
+        <com.example.doan_didong.ScalableImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitCenter"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/screenshot_34" />
+        
+        
+        
+        
+    </LinearLayout>
+</ScrollView>

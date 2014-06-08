@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.doan_didong"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:maxSdkVersion="17" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <application
+        android:icon="@drawable/icon_easy_english2"
+        android:largeHeap="true"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login"
+            android:windowSoftInputMode="stateHidden" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity> 
+        <activity
+            android:name=".MainActivity"
+            android:label="Easy English"
+            android:windowSoftInputMode="stateHidden" >
+            
+        </activity>
+       
+		<activity
+            android:name=".SendMailToAdmin"
+            android:label="Gửi Email Liên Hệ"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name=".RegisterActivity"
+            android:label="Đăng Kí Tài Khoản"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name=".QuenMatKhau"
+            android:label="Quên Mật Khẩu"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name=".Tab1_Home_ThongTinTacGia"
+            android:label="Thông Tin Tác Giả"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name=".Tab1_Home_BinhLuan"
+            android:label="Bình Luận"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name=".Tab1_Home_HuongDan"
+            android:label="Hướng Dẫn"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name=".Tab2_ThayDoiHinhDaiDien"
+            android:label="Thay Đổi Hình Đại Diện"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name=".Tab2_ThayDoiThongTinCaNhanActivity"
+            android:label="Thay Đổi Thông Tin Cá Nhân"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        
+        <activity
+            android:name=".Tab2_ThayDoiMatKhauActivity"
+            android:label="Thay Đổi Mật Khẩu"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        
+        <activity
+            android:name=".Tab5_View_A_NguPhap"
+            android:label="Ngữ Pháp"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name=".Tab6_Listen_One_Audio"
+            android:label="Bài Nghe"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:screenOrientation ="landscape"
+            android:name=".Tab7_Video_One"
+            android:label="Xem Video"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name=".Tab8_One_TracNghiem"
+            android:label="Trắc Nghiệm"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name=".Tab8_True_False"
+            android:label="Trắc Nghiệm TRUE/FALSE"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name=".Tab8_One_True_False"
+            android:label="Trắc Nghiệm TRUE/FALSE"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name=".Tab8_Fill_Blank"
+            android:label="Điền Từ"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name=".Tab8_One_Fill_Blank"
+            android:label="Điền Từ"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name=".Tab8_Sort"
+            android:label="Sắp Xếp Câu"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name=".Tab8_One_Sort"
+            android:label="Sắp Xếp Câu"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+         <activity
+            android:name=".Tab9_TuThongDung_YeuThich"
+            android:label="Yêu Thích"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name=".Tab9_ThanhNgu_YeuThich"
+            android:label="Yêu Thích"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name=".Tab9_Audio_YeuThich"
+            android:label="Yêu Thích"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name=".Tab9_Audio_Listen_One"
+            android:label="Bài Nghe"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name=".Tab9_Video_YeuThich"
+            android:label="Yêu Thích"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name=".Tab9_Video_Watch_One"
+            android:label="Xem Video"
+            android:screenOrientation ="landscape"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <activity
+            android:name=".GetallaudiosActivity"
+            android:label="Interactive Language Learning" >
+            
+        </activity>
+         <activity
+            android:name=".ListenAAudioActivity"
+            android:label="Interactive Language Learning" >
+            
+        </activity>
+        <activity
+            android:name=".ViewAAudioActivity"
+            android:label="Interactive Language Learning" >
+            
+        </activity>
+       
+        
+        
+        
+        
+        
+        
+        <activity
+            android:name=".GetAllVideoActivity"
+            android:label="Interactive Language Learning" >
+        </activity>
+        
+        <activity
+            android:name=".WatchAVideoActivity"
+            android:label="Interactive Language Learning" >
+        </activity>
+        
+        
+        
+        
+        
+        
+        <activity
+            android:name=".GetAllStudyActivity"
+            android:label="Interactive Language Learning" >
+        </activity>
+        <activity
+            android:name=".StudyAEnglish"
+            android:label="Interactive Language Learning" >
+        </activity>
+        
+        
+        
+        
+        
+        <activity
+            android:name=".GetAllTest"
+            android:label="Interactive Language Learning" >
+        </activity>
+        <activity
+            android:name=".GetAllTest1"
+            android:label="Interactive Language Learning" >
+        </activity>
+        
+        
+        
+        
+        
+        <activity
+            android:name=".InformationActivity"
+            android:label="Interactive Language Learning" >
+        </activity>
+        
+        
+        
+        
+        
+        <activity
+            android:name=".ScoreTestActivity"
+            android:label="Điểm số" >
+        </activity>
+        
+        
+        
+        
+        
+        
+        <activity
+            android:name=".YourFavoriteAudio"
+            android:label="Audio Yêu Thích" >
+        </activity>
+        
+          <activity
+            android:name=".YourFavoriteVideo"
+            android:label="Video Yêu Thích" >
+        </activity>
+        
+          
+          
+          
+          
+          
+          <activity
+            android:name=".ChooseUploadActivity"
+            android:label="Lựa chọn upload" >
+        </activity>
+        <activity
+            android:name=".ChooseAudioInSdcard"
+            android:label="Chọn audio upload" >
+        </activity>
+        
+        <activity
+            android:name=".UploadAAudio"
+            android:label="Upload audio" >
+        </activity>
+        <activity
+            android:name=".ChooseVideoInSdcard"
+            android:label="Chọn video" >
+        </activity>
+        <activity
+            android:name=".UploadAVideo"
+            android:label="Chọn video" >
+        </activity>
+        
+        
+        
+        
+        
+        
+        <activity
+            android:name=".UploadAStudy"
+            android:label="Upload bài giảng" >
+        </activity>
+        
+        
+        
+        
+        
+        
+        <activity
+            android:name=".UploadAllTestName"
+            android:label="Upload Trắc nghiệm" >
+        </activity>
+        <activity
+            android:name=".UploadATest"
+            android:label="Upload Trắc nghiệm" >
+        </activity>
+        
+        
+        
+        
+        
+        
+        
+        <activity
+            android:name=".AllBinhLuanActivity"
+            android:label="Bình Luận" >
+        </activity>
+        <activity
+            android:name=".AddBinhLuanActivity"
+            android:label="Thêm bình luận" >
+        </activity>
+        
+        <activity
+            android:name=".RatingActivity"
+            android:label="Đánh giá" >
+        </activity>
+        
+        
+        
+        
+    </application>
+
+</manifest>

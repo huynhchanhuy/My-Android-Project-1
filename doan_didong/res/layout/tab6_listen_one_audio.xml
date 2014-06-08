@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#4a4a4a" >
+
+    <RelativeLayout
+        android:id="@+id/player_header_bg"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:background="@layout/tab6_bg_player_header"
+        android:paddingLeft="5dp" >
+
+        <!-- Song Title -->
+
+        <TextView
+            android:id="@+id/tab6_one_id"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/tab6_one_link"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tab6_one_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/tab6_one_btntext"
+            android:layout_weight="1"
+            android:paddingTop="5dp"
+            android:paddingLeft="5dp"
+            android:text="The Good, The Bad And The Ugly"
+            android:textColor="#00FFCC"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <!-- Playlist button -->
+
+        <ImageButton
+            android:id="@+id/tab6_one_btntext"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="10dp"
+            android:background="@null"
+            android:src="@drawable/btn_playlist" />
+
+        <TextView
+            android:id="@+id/tab6_one_ngay_tao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:text="Đăng: 26/08/2013"
+            android:textColor="#00FF00"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/tab6_one_luot_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_toLeftOf="@+id/tab6_one_btntext"
+            android:paddingBottom="5dp"
+            android:text="Xem: 123 lần"
+            android:textColor="#FF9900"
+            android:textSize="12dp" />
+
+    </RelativeLayout>
+	<ScrollView 
+            android:id="@+id/songThumbnail"
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+	        android:background="#FFFFCC"
+	        android:visibility="gone"
+	        android:layout_above="@+id/aaaaaaaaaaaa"
+	        android:layout_below="@id/player_header_bg">
+
+            <TextView
+                android:id="@+id/tab6_one_text"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                
+                android:padding="10dp"
+                android:text="Xem: 123 lần Xem: 123 lầnjhj Xem: 123 lần hoa Xem: 123 lầnho Xem: 123 lầnodw dawhd
+            	Xem: 123 lầnXem: 123 lầnXem: 123 lầnXem: 123 lầnXem: 123 lầnXem: 123 lầnXem: 123 lầnXem: 123 lần
+            	Xem: 123 lầnXem: 123 lầnXem: 123 lầnXem: 123 lầnXem: 123 lầnXem: 123 lầnXem: 123 lầnXem: 123 lần
+            	Xem: 123 lầnXem: 123 lầnXem: 123 lầnXem: 123 lầnXem: 123 lần
+            	Xem: 123 lầnXem: 123 lần
+            	Xem: 123 lầnXem: 123 lầnXem: 123 lầnXem: 123 lần
+            	Xem: 123 lầnXem: 123 lầnXem: 123 lầnXem: 123 lầnXem: 123 lần
+            	Xem: 123 lầnXem: 123 lầnXem: 123 lầnXem: 123 lầnXem: 123 lầnXem: 123 lần
+            	Xem: 123 lần Xem: 123 lầnXem: 123 lầnXem: 123 lầnXem: 123 lần
+            	Xem: 123 lầnXem: 123 lầnXem: 123 lầnXem: 123 lầnXem: 123 lần
+            	Xem: 123 lầnXem: 123 lầnXem: 123 lầnXem: 123 lầnXem: 123 lầnXem: 123 lần
+            	Xem: 123 lần
+            	Xem: 123 lần Xem: 123 lầnjhj Xem: 123 lần hoa Xem: 123 lầnho Xem: 123 lầnodw dawhd
+            	Xem: 123 lầnXem: 123 lầnXem: 123 lầnXem: 123 lầnXem: 123 lầnXem: 123 lầnXem: 123 lầnXem: 123 lần
+            	Xem: 123 lầnXem: 123 lầnXem: 123 lầnXem: 123 lầnXem: 123 lầnXem: 123 lầnXem: 123 lầnXem: 123 lần
+            	Xem: 123 lầnXem: 123 lầnXem: 123 lầnXem: 123 lầnXem: 123 lần" />
+
+        </ScrollView>
+
+    <!-- Player Footer -->
+
+    <LinearLayout
+        android:id="@+id/player_footer_bg"
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:background="@layout/tab6_bg_player_footer"
+        android:gravity="center" >
+
+        <!-- Player Buttons -->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:background="@layout/tab6_rounded_corner"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp" >
+
+            <ImageButton
+                android:id="@+id/btnBackward"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:src="@drawable/btn_backward" />
+            <!-- Play Button -->
+
+            <ImageButton
+                android:id="@+id/btnPlay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:src="@drawable/btn_play" />
+            <!-- Forward Button -->
+
+            <ImageButton
+                android:id="@+id/btnForward"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:src="@drawable/btn_forward" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Progress Bar/Seek bar -->
+
+
+    <!-- Timer Display -->
+
+    <LinearLayout
+        android:id="@+id/timerDisplay"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/songProgressBar"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp" >
+
+        <!-- Current Duration Label -->
+
+        <TextView
+            android:id="@+id/songCurrentDurationLabel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:text=""
+            android:textColor="#eeeeee"
+            android:textStyle="bold" />
+        <!-- Total Duration Label -->
+
+        <TextView
+            android:id="@+id/songTotalDurationLabel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text=""
+            android:textColor="#04cbde"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <SeekBar
+        android:id="@+id/songProgressBar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/player_footer_bg"
+        android:layout_alignLeft="@+id/timerDisplay"
+        android:layout_alignRight="@+id/timerDisplay"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:progressDrawable="@drawable/seekbar_progress"
+        android:thumb="@drawable/seek_handler" />
+
+    <!-- Repeat / Shuffle buttons -->
+
+    <LinearLayout
+        android:id="@+id/aaaaaaaaaaaa"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/timerDisplay"
+        android:gravity="center" >
+
+        <!-- Repeat Button -->
+
+        <ImageButton
+            android:id="@+id/tab6_one_btnRepeat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:background="@null"
+            android:src="@drawable/btn_repeat" />
+
+        <!-- Shuffle Button -->
+        <!--
+            <ImageButton 
+            android:id="@+id/btnShuffle" 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/btn_shuffle"
+            android:layout_marginLeft="5dp"
+            android:background="@null"/>
+        -->
+
+        <CheckBox
+            android:id="@+id/tab6_one_yeuthich"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Yêu thích"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+</RelativeLayout>
+<!--
+     <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Thành viên: nguyen"
+	        android:textStyle="normal" />
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Họ tên: Nguyễn Văn A"
+	        android:textStyle="normal" />
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Thời gian: 16/10/2013"
+	        android:textStyle="normal" />
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Nội dung: Bài này khá chi tiết và bổ ích."
+	        android:textStyle="normal" />
+-->
+
+
+<!--
+     <EditText
+	        android:id="@+id/ed_thaydoi_sdt"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:inputType="phone"
+	        android:text=""
+	        android:hint="Số điện thoại" />
+-->
+<!--
+     <Button
+	        android:id="@+id/btn_thaydoi_thongtincanhan"
+	        android:layout_width="wrap_content"
+	        android:layout_height="50dp"
+	        android:layout_marginTop="5dp"
+	        android:textSize="25dp"
+	        android:background="@drawable/btn_style_tab2_thaydoi_thongtin" />
+-->
+<!--
+     <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_margin="0dp"
+        android:padding="0dp"
+        android:src="@drawable/header_thaydoi_thongtin" />
+-->
+<!--
+         <EditText
+	        android:id="@+id/ed_thaydoi_hovaten"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text=""
+	        android:hint="Họ và tên" />
+-->

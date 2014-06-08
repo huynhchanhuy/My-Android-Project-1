@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/tab8_one_level_name"
+            android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:text="Anh văn cơ bản"
+	        android:textAppearance="?android:attr/textAppearanceMedium"
+	        android:textColor="#9A0E14"
+	        android:textStyle="bold" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/layout3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/layout4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true" >
+
+            <EditText
+                android:id="@+id/tab8_one_choncau"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/btn_ketqua"
+                android:layout_alignLeft="@+id/btn_choncau1"
+                android:layout_alignTop="@+id/btn_lamlai"
+                android:layout_toLeftOf="@+id/btn_lamlai"
+                android:layout_weight="1"
+                android:inputType="number"
+                android:text="1" />
+
+            <Button
+                android:id="@+id/tab8_one_btn_choncau"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_toLeftOf="@+id/btn_lamlai"
+                android:text="Đến Câu" />
+
+            <TextView
+                android:id="@+id/tab8_one_dapan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/tab8_one_btn_chualam"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chưa Làm" />
+
+            <Button
+                android:id="@+id/tab8_one_xem_dap_an"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Đáp Án"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout5"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true" >
+
+            <Button
+                android:id="@+id/tab8_one_btn_cautruoc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:background="@drawable/back_button_pressed" />
+
+            <Button
+                android:id="@+id/tab8_one_btn_causau"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/btn_stop"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/next_button_pressed" />
+
+            <Button
+                android:id="@+id/tab8_one_btn_lamlai"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Làm lại" />
+
+            <Button
+                android:id="@+id/tab8_one_btn_ketqua"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nộp bài" />
+        </LinearLayout>
+    </LinearLayout>
+    
+	<ScrollView 
+	    android:id="@+id/tab8_one_scrollview_text"
+	    android:layout_below="@+id/tab8_one_id_current"
+	    android:layout_width="fill_parent"
+	    android:layout_height="100dp">
+		<TextView
+		    android:id="@+id/tab8_one_text"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:text="nội dung câu hỏi nội dung câu hỏi nội dung câu hỏi nội dung câu hỏi nội dung câu hỏi nội dung câu hỏi 
+		    nội dung câu hỏi nội dung câu hỏi nội dung câu hỏi nội dung câu hỏi nội dung câu hỏi nội dung câu hỏi 
+		    nội dung câu hỏi nội dung câu hỏi nội dung câu hỏi nội dung câu hỏi nội dung câu hỏi nội dung câu hỏi 
+		    nội dung câu hỏi nội dung câu hỏi nội dung câu hỏi nội dung câu hỏi nội dung câu hỏi nội dung câu hỏi "
+		    android:textColor="#339933"
+		    android:textSize="17dip" />
+	 </ScrollView>
+
+	<ScrollView
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_above="@+id/layout3"
+	    android:layout_alignParentLeft="true"
+	    android:layout_below="@+id/tab8_one_scrollview_text"
+	    android:background="#F9F9FF"
+	    android:orientation="vertical" >
+
+	    <RadioGroup
+	        android:id="@+id/tab8_one_radioGroup"
+	        android:layout_width="wrap_content"
+	        android:layout_height="180dp"
+	        android:focusable="false"
+            android:focusableInTouchMode="false"
+	        android:layout_alignParentLeft="true"
+	        android:layout_centerVertical="true" >
+
+	         <RadioButton
+                android:id="@+id/tab8_one_radio1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="14dp"
+                android:text="RadioButton1111111111111111111111111"
+                android:textColor="#4C4C33"
+                android:focusable="false"
+            	android:focusableInTouchMode="false" />
+	         <RadioButton
+		        android:id="@+id/tab8_one_radio2"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_above="@+id/tab8_one_radio3"
+		        android:layout_alignParentLeft="true"
+		        android:text="RadioButton2222222222222222222222"
+		        android:textColor="#4C4C33"
+		        android:focusable="false"
+            	android:focusableInTouchMode="false" />
+	         <RadioButton
+		        android:id="@+id/tab8_one_radio3"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_above="@+id/tab8_one_radio4"
+		        android:layout_alignParentLeft="true"
+		        android:layout_marginBottom="20dp"
+		        android:text="RadioButton33333333333333333 RadioButton3333333333"
+		        android:textColor="#4C4C33"
+		        android:focusable="false"
+            	android:focusableInTouchMode="false" />
+	        <RadioButton
+	            android:id="@+id/tab8_one_radio4"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="RadioButton44444444444444444444444444"
+	            android:textColor="#4C4C33"
+	            android:focusable="false"
+            	android:focusableInTouchMode="false" />
+	        <RadioButton
+	            android:id="@+id/tab8_one_radio5"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="RadioButton44444444444444444444444444"
+	            android:textColor="#4C4C33"
+	            android:focusable="false"
+            	android:focusableInTouchMode="false"
+            	android:visibility="gone" />
+	    </RadioGroup>
+	</ScrollView>
+
+	<TextView
+	    android:id="@+id/tab8_one_username"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentRight="true"
+	    android:layout_alignTop="@+id/tab8_one_id_current"
+	    android:text="nguyen"
+	    android:textColor="#0000CC" />
+
+	<TextView
+	    android:id="@+id/tab8_one_id_current"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentLeft="true"
+	    android:layout_below="@+id/relativeLayout1"
+	    android:text="Câu 10/20"
+	    android:textAppearance="?android:attr/textAppearanceMedium"
+	    android:textColor="#CC00CC" />
+
+</RelativeLayout>

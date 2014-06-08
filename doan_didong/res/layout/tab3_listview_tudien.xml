@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Day là tab 3" />
+        <ListView 
+        android:id="@android:id/tab3_tudien_listview"
+        android:id="@+id/tab3_tudien_listview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        
+    </ListView> -->
+    <ListView 
+        android:id="@+id/tab3_tudien_listview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+    </ListView>
+
+</LinearLayout>

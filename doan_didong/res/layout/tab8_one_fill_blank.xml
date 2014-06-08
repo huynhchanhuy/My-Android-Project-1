@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/layout_1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/tab8_fill_blank_level_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="Anh văn cơ bản"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#9A0E14"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tab8_fill_blank_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="nguyen nguyen"
+            android:textColor="#0000CC" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal" >
+                <Button
+                    android:id="@+id/tab8_fill_blank_btn_lamlai"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Làm lại" />
+
+                <Button
+                    android:id="@+id/tab8_fill_blank_btn_ketqua"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nộp bài" />
+
+                <Button
+                    android:id="@+id/tab8_fill_blank_btn_chualam"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Câu chưa làm" />
+                <Button
+                    android:id="@+id/tab8_fill_blank_btn_xemdapan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Đáp án"
+                    android:visibility="gone" />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/layout_3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/layout_4"
+        android:layout_below="@+id/layout_1" >
+
+        <TextView
+            android:id="@+id/tab8_fill_blank_doanvan"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Đoạn văn đoạn văn đoạn văn đoạn văn đoạn văn đoạn văn đoạn văn đoạn văn đoạn văn 
+            đoạn văn đoạn văn đoạn văn đoạn văn đoạn văn đoạn văn  
+            Đoạn văn đoạn văn đoạn văn đoạn văn đoạn văn đoạn văn đoạn văn đoạn văn đoạn văn 
+            đoạn văn đoạn văn đoạn văn đoạn văn đoạn văn đoạn văn12 31 4323
+            đoạn văn đoạn văn đoạn văn đoạn văn đoạn văn 
+            đoạn văn đoạn văn đoạn văn đoạn văn đoạn văn đoạn văn12 31 4323 đoạn văn đoạn văn đoạn văn đoạn văn đoạn văn 
+            đoạn văn đoạn văn đoạn văn đoạn văn đoạn văn đoạn văn12 31 4323"
+            android:textColor="#339933"
+            android:textSize="17dip" />
+    </ScrollView>
+
+    <ScrollView
+        android:id="@+id/layout_4"
+        android:layout_width="fill_parent"
+        android:layout_height="250dp"
+        android:layout_alignParentLeft="true"
+        android:layout_above="@+id/layout_2" >
+	    <LinearLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+	        android:orientation="vertical" >
+
+	        <TextView
+	            android:id="@+id/tab8_fill_blank_goiy"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:paddingTop="10dp"
+	            android:paddingBottom="10dp"
+	            android:text="Gợi ý Gợi ý Gợi ý Gợi ý Gợi ýGợi ýGợi ý"
+	            android:textAppearance="?android:attr/textAppearanceMedium" />
+	
+	        <EditText
+	            android:id="@+id/tab8_fill_blank_1"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:ems="10"
+	            android:hint="(1)" >
+	        </EditText>
+	
+	        <EditText
+	            android:id="@+id/tab8_fill_blank_2"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:ems="10"
+	            android:hint="(2)" />
+	
+	        <EditText
+	            android:id="@+id/tab8_fill_blank_3"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:ems="10"
+	            android:hint="(3)" />
+	
+	        <EditText
+	            android:id="@+id/tab8_fill_blank_4"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:ems="10"
+	            android:hint="(4)" />
+	        <EditText
+	            android:id="@+id/tab8_fill_blank_5"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:ems="10"
+	            android:hint="(5)" >
+	        </EditText>
+	
+	        <EditText
+	            android:id="@+id/tab8_fill_blank_6"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:ems="10"
+	            android:hint="(6)" />
+	
+	        <EditText
+	            android:id="@+id/tab8_fill_blank_7"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:ems="10"
+	            android:hint="(7)" />
+	
+	        <EditText
+	            android:id="@+id/tab8_fill_blank_8"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:ems="10"
+	            android:hint="(8)" />
+	        <EditText
+	            android:id="@+id/tab8_fill_blank_9"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:ems="10"
+	            android:hint="(9)" />
+	
+	        <EditText
+	            android:id="@+id/tab8_fill_blank_10"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:ems="10"
+	            android:hint="(10)" />
+	    </LinearLayout>
+	</ScrollView>
+</RelativeLayout>

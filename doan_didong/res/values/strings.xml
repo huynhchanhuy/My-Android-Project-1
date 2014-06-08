@@ -1,0 +1,23 @@
+<resources>
+
+    <string name="app_name">Easy English</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_login">Easy English</string>
+    
+    <string name="cau_hoi_bi_mat1">Choose a question</string>
+	<string-array name="cau_hoi_bi_mat">
+	        <item>Tên con vật bạn yêu thích nhất?</item>
+	        <item>Trường phổ thông bạn học tên gì?</item>
+	        <item>Con số nào bạn yêu thích nhất?</item>
+	        <item>Bạn thường làm gì khi rãnh rỗi?</item>
+	        <item>Màu sắc bạn thích nhất?</item>
+	        <item>Trong các giáo viên dạy bạn, bạn yêu thích nhất ai?</item>
+	        <item>Ca sĩ yêu thích nhất?</item>
+	        <item>Ước mơ của bạn là gì?</item>
+	        <item>Cầu thủ nào bạn hâm mộ nhất?</item>
+	        <item>Người con gái bạn thích nhất?</item>
+	        <item>Môn nào bạn giỏi nhất?</item>
+	</string-array>
+	
+</resources>

@@ -1,0 +1,76 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="20dp"
+    android:paddingBottom="10dp"
+    android:background="@drawable/item_listview_style_nguphap" >
+
+    <TextView
+        android:id="@+id/tab8_tracnghiem_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tab8_tracnghiem_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/tab8_tracnghiem_id"
+        android:text="1. Anh văn cơ bản"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#9A0E14"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/tab8_btn_10cau"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tab8_tracnghiem_text"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="10 câu" />
+
+    <TextView
+        android:id="@+id/tab8_tracnghiem_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tab8_tracnghiem_title"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp"
+        android:text="Mô tả ngắn: video nói về cuộc sống của mọi người trong mùa thu ở vùng Nam Mỹ."
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#1500FF" />
+
+    <Button
+        android:id="@+id/tab8_btn_20cau"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_alignBaseline="@+id/tab8_btn_10cau"
+        android:layout_alignBottom="@+id/tab8_btn_10cau"
+        android:layout_toRightOf="@+id/tab8_btn_10cau"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:text="20 câu"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <Button
+        android:id="@+id/tab8_btn_30cau"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_alignBaseline="@+id/tab8_btn_20cau"
+        android:layout_alignBottom="@+id/tab8_btn_20cau"
+        android:layout_toRightOf="@+id/tab8_btn_20cau"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:text="30 câu"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+</RelativeLayout>

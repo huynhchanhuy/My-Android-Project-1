@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Practise_2</string>
+    <string name="hello">Practise 2: Intent</string>
+    <string name="action_settings">Settings</string>
+    <string name="textName">Please enter your name!</string>
+    <string name="editTextID">txtName</string>
+    <string name="buttonName">OK</string>
+    <string name="buttonID">btnOK</string>
+    <string name="title_activity_activity3">Activity3</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>

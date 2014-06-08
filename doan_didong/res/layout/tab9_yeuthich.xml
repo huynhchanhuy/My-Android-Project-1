@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginBottom="0dp"
+    android:background="#F1F1F2"
+    android:orientation="vertical" >
+
+    <TableLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="30dp"
+	    android:layout_marginRight="30dp"
+	    android:layout_marginTop="30dp"
+	    android:layout_gravity="center" >
+	    <Button
+	        android:id="@+id/tab9_tuthongdung_yeuthich"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        style="@style/btnStyleSeagull"
+	        android:text="Từ thông dụng yêu thích" />
+	    <Button
+	        android:id="@+id/tab9_thanhngu_yeuthich"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        style="@style/btnStyleSeagull"
+	        android:layout_marginTop="30dp"
+	        android:text="Thành ngữ yêu thích" />
+	    <Button
+	        android:id="@+id/tab9_bainghe_yeuthich"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        style="@style/btnStyleSeagull"
+	        android:layout_marginTop="30dp"
+	        android:text="Bài nghe yêu thích" />
+	    <Button
+	        android:id="@+id/tab9_video_yeuthich"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        style="@style/btnStyleSeagull"
+	        android:layout_marginTop="30dp"
+	        android:text="Video yêu thích" />
+	    
+    </TableLayout>
+
+</LinearLayout>

@@ -1,0 +1,121 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/item_listview_style"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tab9_tudien_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ID"
+            android:visibility="gone" />
+		<TextView
+            android:id="@+id/tab9_tudien_link_audio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Link_audio"
+            android:visibility="gone" />
+        <TextView
+            android:id="@+id/tab9_tudien_tu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="từ điển"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  " />
+		<TextView
+            android:id="@+id/tab9_tudien_loaitu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="từ loại:"
+            android:textColor="#0004FF" />
+		<TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  " />
+        <TextView
+            android:id="@+id/tab9_tudien_phienam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="phiên âm"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#FF0000"
+            android:textStyle="italic" />
+        
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tab9_tudien_ngay_luu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:text="Ngày lưu:"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    
+    	<TextView
+            android:id="@+id/tab9_tudien_dichnghia"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="dịch nghĩa dịch nghĩa:"
+            android:textColor="#000099" />
+	<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:orientation="horizontal" >
+	    <Button
+	        android:id="@+id/tab9_tudien_delete"
+	        android:layout_width="30dp"
+	        android:layout_height="30dp"
+	        
+	        android:focusable="false"
+	        android:focusableInTouchMode="false"
+	        android:background="@drawable/btn_style_btn_delete"
+	        android:text="" />
+	    <Button
+	        android:id="@+id/tab9_tudien_listen"
+	        android:layout_width="30dp"
+	        android:layout_height="30dp"
+	        android:layout_marginLeft="10dp"
+	        android:focusable="false"
+	        android:focusableInTouchMode="false"
+	        android:background="@drawable/btn_style_btn_listen"
+	        android:text="" />
+
+	    
+	</LinearLayout>
+	<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+	    <TextView
+	        android:id="@+id/tab9_tudien_nhieunghia"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:padding="10dp"
+	        android:background="#FFFFCD"
+	        android:textColor="#005600"
+	        android:text="Nghĩa thêm Nghĩa thêm  Nghĩa thêm  Nghĩa thêm  Nghĩa thêm  Nghĩa thêm  Nghĩa thêm  Nghĩa thêm
+	        			Nghĩa thêm Nghĩa thêm  Nghĩa thêm  Nghĩa thêm  Nghĩa thêm  Nghĩa thêm  Nghĩa thêm  Nghĩa thêm
+	        			Nghĩa thêm Nghĩa thêm  Nghĩa thêm  Nghĩa thêm  Nghĩa thêm  Nghĩa thêm  Nghĩa thêm  Nghĩa thêm
+	        			Nghĩa thêm Nghĩa thêm  Nghĩa thêm  Nghĩa thêm  Nghĩa thêm  Nghĩa thêm  Nghĩa thêm  Nghĩa thêm
+	        			Nghĩa thêm Nghĩa thêm  Nghĩa thêm  Nghĩa thêm  Nghĩa thêm  Nghĩa thêm  Nghĩa thêm  Nghĩa thêm"
+	        android:visibility="visible" />
+	</LinearLayout>
+
+</LinearLayout>
